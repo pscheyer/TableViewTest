@@ -1,0 +1,9 @@
+This is a template for TableViewCells. To modify, copy all the attached classes into your new project.
+
+You're going to want to modify the datasource to accept your input, currently it just generates content for the user, comment blocks.
+
+Media can be changed for whatever purpose you like, if you don't want an instagram style featured image you can put whatever else you want in there.
+
+Generally speaking, the TableViewController(subclass of UITableViewController) creates an appropriate amount of MediaTableViewCells (a subclass of UITableViewCell) based on the number of items in the DataSource class (a subclass of NSObject designed to incorporate whatever).
+
+Have fun. CC-SY-BA license.''
